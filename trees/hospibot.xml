@@ -1,0 +1,11 @@
+    
+<root main_tree_to_execute="MainTree">
+    <BehaviorTree ID="MainTree">
+        <Sequence name="root_sequence">
+            <MyAsyncAction name="action_A" duration_ms="1500" />
+            <MyAsyncAction name="action_B" duration_ms="3000" />
+        </Sequence>
+    </BehaviorTree>
+</root>
+
+  

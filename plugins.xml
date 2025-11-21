@@ -1,0 +1,8 @@
+    
+<library path="lib/libhri_action1_plugin.so"> <!-- Or whatever you named your library -->
+  <class name="MyAsyncAction" type="MyAsyncAction" base_class_type="BT::ActionNode">
+    <description>A custom asynchronous action node.</description>
+  </class>
+</library>
+
+  
